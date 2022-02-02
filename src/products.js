@@ -1,13 +1,7 @@
 // get the client
 const mysql = require('mysql2');
 
-// create the connection to database
-const connection = mysql.createConnection({
-    host: '34.67.146.233',
-    user: 'root',
-    password: 'BuildingSoFlo',
-    database: 'Commerce'
-});
+//see credentials
 
 const query = `SELECT * FROM Products`;
 
